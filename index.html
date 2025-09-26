@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+        background-image: url(test-tube-5065426_640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+    }
+  </style>
+
+</head>
+<body>
+  <nav>
+    <h1>🏥Tumaini Hospital</h1>
+    <ul>
+      <li id="nav-home">Home</li>
+      <li id="nav-tracker">Tracker</li>
+      <li id="nav-about">About</li>
+    </ul>
+  </nav>
+  <section id="home">
+    <h2>Welcome to Tumaini Hospital</h2>
+    <p>
+      At Tumaini Hospital, we are committed to delivering the highest quality healthcare services. 
+      Our dedicated doctors, nurses, and staff are here to ensure your well-being every step of the way.
+    </p>
+
+    <div class="services">
+      <div class="card">
+        <h3>👩‍⚕️ Consultation</h3>
+   <p>Book an appointment with our professional doctors and get the care you deserve.</p>
+      </div>
+      <div class="card">
+        <h3>💊 Pharmacy</h3>
+        <p>Access prescription medicines and health products directly from our in-house pharmacy.</p>
+      </div>
+      <div class="card">
+        <h3>🌺 Menses Tracker</h3>
+     <p>Use our menstrual cycle tracker to monitor your periods, ovulation, and fertility windows.</p>
+      </div>
+      <div class="card">
+        <h3>🏥 Emergency</h3>
+        <p>24/7 emergency response team always ready to provide urgent care when you need it most.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="form">
+    <form id="mensesForm">
+      <h2>🌺 Menses Tracker</h2>
+      <label for="username">User</label>
+      <input type="text" placeholder="Enter your name" id="username" required>
+      <label for="lastdate">Last period Date</label>
+      <input type="date" id="lastdate" required>
+      <label for="length">Cycle Length</label>
+      <input type="number" placeholder="Insert length" id="length" required>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  <div id="Predictions">
+    <h1>Predictions</h1>
+    <div id="prediction-content"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
