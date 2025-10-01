@@ -1,13 +1,22 @@
 {
   "periods": [
     {
-      "USERNAME": "mina",
-      "LASTDATE": "2025-09-19",
-      "LENGTH": 28,
-      "NEXTPERIOD": "2025-10-17",
-      "FERTILEWINDOW": "2025-09-29 - 2025-10-06",
-      "OVULATIONDAY": "2025-10-03",
+      "USERNAME": "Tamara",
+      "LASTDATE": "2025-05-07",
+      "LENGTH": 24,
+      "NEXTPERIOD": "2025-05-31",
+      "FERTILEWINDOW": "2025-05-13 - 2025-05-20",
+      "OVULATIONDAY": "2025-05-17",
       "id": 1
+    },
+    {
+      "USERNAME": "nelie",
+      "LASTDATE": "2025-09-03",
+      "LENGTH": 28,
+      "NEXTPERIOD": "2025-10-01",
+      "FERTILEWINDOW": "2025-09-13 - 2025-09-20",
+      "OVULATIONDAY": "2025-09-17",
+      "id": 2
     }
   ]
 }
